@@ -8,7 +8,7 @@ public abstract class Vehicle {
     private static int vehiclesProduced = 12;
 
 
-    public Vehicle(int numberOfWheels, String color, int maxSpeed) {
+    public Vehicle(int numberOfWheels, String color, int maxSpeed) { // konstruktor klasy Vehicle
         this.color = color;  // inicjalizacja
         this.maxSpeed = maxSpeed;
         this.numberOfWheels = numberOfWheels;
